@@ -1,0 +1,91 @@
+global:
+  scrape_interval:     15s # By default, scrape targets every 15 seconds.
+# A scrape configuration containing exactly one endpoint to scrape:
+# Here it's Prometheus itself.
+scrape_configs:
+  # The job name is added as a label `job=<job_name>` to any timeseries scraped from this config.
+  - job_name: 'prometheus'
+
+    # Override the global default and scrape targets from this job every 5 seconds.
+    scrape_interval: 5s
+
+    static_configs:
+      - targets: ['localhost:9090']
+
+  - job_name: 'chia'
+    static_configs:
+      - targets: ['192.168.77.182:3903']
+        labels:
+          host: 廖总
+      - targets: ['192.168.88.102:3903']
+        labels:
+          host: a3
+      - targets: ['192.168.88.104:3903']
+        labels:
+          host: a2
+      - targets: ['192.168.88.84:3903']
+        labels:
+          host: a4
+      - targets: ['192.168.88.100:3903']
+        labels:
+          host: a5
+      - targets: ['192.168.88.101:3903']
+        labels:
+          host: b2
+      - targets: ['192.168.88.103:3903']
+        labels:
+          host: b3
+      - targets: ['192.168.88.106:3903']
+        labels:
+          host: e1
+      - targets: ['192.168.88.105:3903']
+        labels:
+          host: b1
+      - targets: ['192.168.77.82:3903']
+        labels:
+          host: 21
+      - targets: ['192.168.88.108:3903']
+        labels:
+          host: c1
+      - targets: ['192.168.88.109:3903']
+        labels:
+          host: d3
+      - targets: ['192.168.88.110:3903']
+        labels:
+          host: d1
+      - targets: ['192.168.88.111:3903']
+        labels:
+          host: f1
+      - targets: ['192.168.88.112:3903']
+        labels:
+          host: f2
+      - targets: ['192.168.88.107:3903']
+        labels:
+          host: f3
+      - targets: ['192.168.88.113:3903']
+        labels:
+          host: g1
+      - targets: ['192.168.88.114:3903']
+        labels:
+          host: g2
+      - targets: ['192.168.88.117:3903']
+        labels:
+          host: g4
+      - targets: ['192.168.88.115:3903']
+        labels:
+          host: h1
+      - targets: ['192.168.88.116:3903']
+        labels:
+          host: h2
+      - targets: ['192.168.88.118:3903']
+        labels:
+          host: h3
+      - targets: ['192.168.88.120:3903']
+        labels:
+          host: h4
+      - targets: ['192.168.88.121:3903']
+        labels:
+          host: h5
+      - targets: ['192.168.88.122:3903']
+        labels:
+          host: d4

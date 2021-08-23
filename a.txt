@@ -1,0 +1,25 @@
+c:\$Recycle.Bin
+c:\$WINDOWS.~BT
+c:\$Windows.~WS
+c:\$WinREAgent
+c:\Config.Msi
+c:\Documents and Settings
+c:\ESD
+c:\Intel
+c:\PerfLogs
+c:\php
+c:\Program Files
+c:\Program Files (x86)
+c:\ProgramData
+c:\QMDownload
+c:\Recovery
+c:\System Volume Information
+c:\Temp
+c:\Users
+c:\Windows
+c:\a1\12\261398126\
+c:\a1\21123\261398126\
+-c:\a1\12\261398126\
+-c:\a1\21123\261398126\
+  - c:\a1\12\261398126
+  - c:\a1\21123\261398126
